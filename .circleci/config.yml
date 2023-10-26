@@ -1,7 +1,9 @@
 version: 2.1
 jobs:
   build:
-    <environment>
+    docker:
+      - image: debian:stretch
+      
     steps:
       - checkout
 
